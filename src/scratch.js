@@ -3,14 +3,14 @@ function input(name1, name2) {
   return fullInput;
 }
 
-input("Amber", "Nicole");
+input("Nathan", "Caitlin");
 
 function convertToNums(input) {
   const arr = input.split("");
   return arr;
 }
 
-const example = convertToNums(input("Amber", "Nicole"));
+const example = convertToNums(input("Nathan", "Caitlin"));
 
 function find_duplicate_in_array(array) {
   const count = {};
@@ -36,18 +36,22 @@ console.log(numbers);
 function percentage(nums) {
   const reduce = [];
   if (nums.length === 2) {
-    return nums;
-  }
-  for (let i = 0; nums.length > 0; i++) {
-    console.log(i);
-    reduce.push(nums.shift() + nums.pop());
+    console.log(`${nums.join("")}%`);
+  } else if (nums.length % 2 !== 0) {
+    for (let i = 0; nums.length > 1; i++) {
+      console.log(i);
+      reduce.push(nums.shift() + nums.pop());
+      console.log(reduce);
+    }
+    reduce.push(nums[0]);
     console.log(reduce);
+  } else {
+    for (let i = 0; nums.length > 0; i++) {
+      console.log(i);
+      reduce.push(nums.shift() + nums.pop());
+      console.log(reduce);
+    }
   }
   percentage(reduce);
 }
-// if(reduce.length === 2){
-// return reduce
-// }
-// return percentage(reduce)
-// }
 percentage(numbers);
