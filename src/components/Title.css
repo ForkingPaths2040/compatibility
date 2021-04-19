@@ -1,0 +1,28 @@
+.title-box h2 {
+  color: white;
+}
+.title-box {
+  width: 12%;
+  margin: 5% 0;
+  height: 50px;
+}
+.box-one {
+  background-color: #023e8a;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.box-two {
+  background-color: white;
+  width: 50%;
+}
+
+#coup {
+  margin-right: 5px;
+}
+#ling {
+  color: #023e8a;
+  margin-left: 5px;
+}
