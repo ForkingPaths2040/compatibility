@@ -1,11 +1,11 @@
-function input(name1, name2) {
+export function input(name1, name2) {
   const fullInput = name1.concat(name2).toLowerCase();
   return fullInput;
 }
 
-input("Nathan", "Caitlin");
+// input("Nathan", "Caitlin");
 
-function convertToNums(input) {
+export function convertToNums(input) {
   const arr = input.split("");
   return arr;
 }
@@ -54,4 +54,4 @@ function percentage(nums) {
   }
   percentage(reduce);
 }
-percentage(numbers);
+// percentage(numbers);

@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
 import Input from "./components/Input";
 import Title from "./components/Title";
 
 function App() {
   return (
-    <div class="app">
+    <div className="app">
       <Title />
       <Input />
     </div>

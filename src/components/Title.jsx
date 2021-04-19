@@ -2,8 +2,8 @@ import React from 'react';
 import './Title.css'
 function Title(props) {
   return (
-    <div class='flex-row title-box'>
-      <div class='box-one'>
+    <div className='flex-row title-box'>
+      <div className='box-one'>
         <h2 id='coup'>coup</h2>
       </div>
       <div className='box-two'>
