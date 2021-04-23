@@ -12,6 +12,7 @@ export function convertToChars(input) {
 
 // const example = convertToChars(input("Nathan", "Caitlin"));
 
+// cited as : https://www.w3resource.com/javascript-exercises/javascript-array-exercise-20.php
 export function find_duplicate_in_array(array) {
   const count = {};
   // const result = [];
