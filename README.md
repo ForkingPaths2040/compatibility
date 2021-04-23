@@ -1,6 +1,6 @@
 # Compatibility Algo
 
-[Visit Here](https://forkingpaths2040.github.io/Compatibility-with-Names/)
+[Visit Here](https://forkingpaths2040.github.io/compatibility/)
 
 ## Inspiration
 
